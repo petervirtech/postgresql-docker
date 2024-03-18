@@ -1,3 +1,5 @@
 *.env
-data/
-pgadmin/
+pgadmin/*
+!pgadmin/.gitkeep
+data/*
+!data/.gitkeep
