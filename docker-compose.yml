@@ -17,7 +17,7 @@ services:
             PGADMIN_DEFAULT_EMAIL: 'user@foo.com' # replace with correct user
             PGADMIN_DEFAULT_PASSWORD: 'password' # replace with correct password
         ports:
-            - 81:80
+            - 8081:80
         volumes:
             - ./servers.json:/pgadmin4/servers.json
             - ./pgpass:/pgadmin4/pgpass
